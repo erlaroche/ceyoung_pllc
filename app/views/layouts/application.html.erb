@@ -3,13 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title><%= content_for?(:title) ? yield(:title) : "Carlie E. Young, PLLC" %></title>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag    'application.scss', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= javascript_include_tag "application" 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
-    <%= favicon_link_tag 'earthfavicon.png' %>
+    <%= favicon_link_tag 'cyoungpic.jpg' %>
   </head>
 
   <body>
